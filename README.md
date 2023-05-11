@@ -21,3 +21,6 @@ auto logger = log_manager.get_sink("Application");
 logger->Debug("This is a debug message");
 logger->Error("This error message logs the value {0}", 1)
 ```
+
+## Documentation
+The logging library can be accessed using the ```Logger``` class under the ```SyrenLogger``` namespace. This class acts as a log manager where different log sinks can be created, accessed, and modified. 
