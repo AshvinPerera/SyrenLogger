@@ -10,7 +10,7 @@ SyrenLogger is a simple header only C++ logging library with C# style string for
 - C# style string formatting for including variables in the log message 
 
 ## Getting Started
-The following example illustrates how to use the library
+The following example illustrates how to use the library. It is important to note that the library makes use of C++20 features.
 ```c++
 #include "logger.h"
 
